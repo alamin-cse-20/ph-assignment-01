@@ -168,13 +168,12 @@ ul{
     justify-content: space-between;
 }
 .card{
-    /* border: 1px solid green; */
     width: 350px;
     height: 235px;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    padding: 20px 0 0 15px;
+    padding: 20px 0 15px 15px;
 }
 .card h2 {
     padding: 10px 0;
