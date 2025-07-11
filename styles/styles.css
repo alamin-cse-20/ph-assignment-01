@@ -32,7 +32,7 @@ ul{
     font-family: 'Inter';
     font-size: 34px;
     color: #4E47FF;
-    font-weight: bolder;
+    font-weight: 1000;
 }
 .nav-bar button {
     border: none;
@@ -66,4 +66,46 @@ ul{
 .banner h1 {
     font-size: 65px;
     font-weight: bold;
+}
+
+/* action styles */
+.action{
+    margin: 116px auto;
+    display: flex;
+    max-width: 1140px;
+    height: 328px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.act-left{
+    width: 517px;
+    height: 203px;
+
+}
+.act-left h1 {
+    font-size: 42px;
+    font-weight: bolder;
+}
+.act-left p {
+    margin: 25px 0;
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.7);
+}
+.act-left button{
+    margin: 20px auto;
+    border: none;
+    border-radius: 15px;
+    background-color: #4E47FF;
+    color: white;
+    width: 229px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.act-right img {
+    border-radius: 40px;
+    width: 403px;
+    height: 328px;
 }
