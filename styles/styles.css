@@ -162,3 +162,49 @@ ul{
     font-weight: bold;
 }
 
+/* review section styles */
+.card-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    /* border: 1px solid green; */
+    width: 350px;
+    height: 235px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    padding: 20px 0 0 15px;
+}
+.card h2 {
+    padding: 10px 0;
+}
+.card p {
+    margin:5px 0 30px 0;
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.7);
+}
+.rev-profile{
+    display: flex;
+    gap: 10px;
+}
+.rev-left img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.rev-right{
+    margin: 0px;
+    padding: 0px;
+}
+.rev-right h4{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(37, 36, 50, 0.7);
+}
+.rev-right small{
+    font-size: 15;
+    font-weight: normal;
+    color: rgba(37, 36, 50, 0.7);
+}
